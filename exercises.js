@@ -113,15 +113,18 @@ function cube(num) {
 
 function raiseToPower(num, exponent) {
   //raise num to whatever power is passed in as exponent
-  return num;
+  return Math.pow(num, exponent);
 }
 
 function roundNumber(num) {
   //round num and return it
+  return Math.round(num);
+
 }
 
 function roundUp(num) {
   //round num up and return it
+  return Math.ceil(num);
 }
 
 function addExclamationPoint(str) {
@@ -146,18 +149,22 @@ function getGreeting(name) {
 
 function getRectangleArea(length, width) {
   //return the area of the rectangle by using length and width
+  return length * width;
 }
 
 function getTriangleArea(base, height) {
   //return the area of the triangle by using base and height
+  return (base * height) / 2;
 }
 
 function getCircleArea(radius) {
   //return the rounded area of the circle given the radius
+  return Math.PI (radius * radius);
 }
 
 function getRectangularPrismVolume(length, width, height) {
   //return the area of the 3D rectangular prism given the length, width, and height
+  return length * width * height;
 }
 
 //Do not modify code below this line.
