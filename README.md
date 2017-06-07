@@ -5,9 +5,13 @@
 1. Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
 		
 	* Functions
+	A repeatable program.  You make it generic at first and then add custom stuff each time you run it.
 	* Parameters
+	A parameter is the generic placeholder in a function.  It let's the function know to expect some data.  There can be more than one parameter used in a function.
 	* Arguments
+	Functions use arguments to add the custom stuff.  They hold the specific details and can be changed each time. There is usually an equal number of parameters and arguements.
 	* `if` statements
+	An `if` statement is a function that performs a series of true or false tests on an argument.  Is this thing true?  Then do this.  Is it not true? Then go to the next test. If it doesn't pass any test, then it will usually do a default action.
 
 
 2. Install Node and NPM.  NPM comes packaged with Node. https://nodejs.org/en/download/
